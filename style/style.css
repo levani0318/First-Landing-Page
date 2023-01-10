@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    background-color: #0f172a;
+    /*width:auto;*/
+    padding:40px 110px 38px 102px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+}
+/*.logo a:hover{
+    text-decoration: underline;
+    text-decoration-color: #9349fc;
+}*/
+.dziri{
+    position: absolute;
+    left: 110px;
+    top:70px;
+    text-decoration: solid;
+    text-decoration-color:#9349fc;
+}
+.navigation a{
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color:#F8FAFC;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration:underline;
+    text-decoration-color: #9349fc;
+}
+.main{
+    color:#f5f5f5;
+    background-color: #0f172a;
+    padding:94px 144px;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.header-two{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-right: 870px;
+}
+.section-one h2:hover{
+    text-decoration: underline;
+    text-decoration-color: #9349fc;
+}
+.header-one{
+    color: #9349fc;
+}
+.card-one{
+    display: flex;
+    align-items: center;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 34px 8px;
+}
+.card-one:hover{
+    border: 1px solid #9449fc;
+    border-radius: 20px;
+}
+.card-one img:hover{
+    border: 1px solid #9349fc;
+}
+.article-one{
+    margin-left: 36px;
+}
+.article-one h3{
+    color: #F8FAFC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+.article-one h3:hover{
+    text-decoration: underline;
+    text-decoration-color: #9349fc;
+}
+.article-one p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color:#CBD5E1;
+    transform: rotate(0.14deg);
+    margin-bottom: 14px;
+}
+.article-one p:hover{
+    text-decoration: underline;
+    text-decoration-color: #9349fc;
+}
+.article-one .second-article{
+    padding-left: 32px;
+}
+.article-one .three-article{
+    margin-left: 262px;
+}
+.section-second{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.row-article{
+    display: flex;
+    flex-direction: row;
+}
